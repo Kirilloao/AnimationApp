@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     
     // MARK: - IB Actions
     @IBAction func startAnimation(_ sender: SpringButton) {
-
+        
         switch currentAnimation {
         case .pop:
             
@@ -52,55 +52,55 @@ class ViewController: UIViewController {
             
         case .slideRight:
             
-                            setupAnimation(animation: .slideRight, curve: .easeInSine, force: 2, duration: 1, delay: 1)
-                        setupLabels(preset: .slideRight, curve: .easeIn, force: 2, duration: 1, delay: 1)
+            setupAnimation(animation: .slideRight, curve: .easeInSine, force: 2, duration: 1, delay: 1)
+            setupLabels(preset: .slideRight, curve: .easeIn, force: 2, duration: 1, delay: 1)
             
             currentAnimation = .slideDown
             startButton.setTitle("slideDown", for: .normal)
             
         case .slideDown:
             
-                            setupAnimation(animation: .slideDown , curve: .easeOutSine, force: 2, duration: 1, delay: 1)
-                        setupLabels(preset: .slideDown, curve: .easeIn, force: 2, duration: 1, delay: 1)
+            setupAnimation(animation: .slideDown , curve: .easeOutSine, force: 2, duration: 1, delay: 1)
+            setupLabels(preset: .slideDown, curve: .easeIn, force: 2, duration: 1, delay: 1)
             
             currentAnimation = .slideUp
             startButton.setTitle("slideUp", for: .normal)
             
         case .slideUp:
             
-                            setupAnimation(animation: .slideUp, curve: .easeIn, force: 2, duration: 1, delay: 1)
-                        setupLabels(preset: .slideUp, curve: .easeIn, force: 2, duration: 1, delay: 1)
+            setupAnimation(animation: .slideUp, curve: .easeIn, force: 2, duration: 1, delay: 1)
+            setupLabels(preset: .slideUp, curve: .easeIn, force: 2, duration: 1, delay: 1)
             
             currentAnimation = .squeezeLeft
             startButton.setTitle("squeezeLeft", for: .normal)
             
         case .squeezeLeft:
             
-                            setupAnimation(animation: .squeezeLeft, curve: .easeIn, force: 2, duration: 1, delay: 1)
-                        setupLabels(preset: .squeezeLeft, curve: .easeIn, force: 2, duration: 1, delay: 1)
+            setupAnimation(animation: .squeezeLeft, curve: .easeIn, force: 2, duration: 1, delay: 1)
+            setupLabels(preset: .squeezeLeft, curve: .easeIn, force: 2, duration: 1, delay: 1)
             
             currentAnimation = .squeezeRight
             startButton.setTitle("squeezeRight", for: .normal)
             
         case .squeezeRight:
             
-                            setupAnimation(animation: .squeezeRight, curve: .easeIn, force: 2, duration: 1, delay: 1)
-                        setupLabels(preset: .squeezeRight, curve: .easeIn, force: 2, duration: 1, delay: 1)
+            setupAnimation(animation: .squeezeRight, curve: .easeIn, force: 2, duration: 1, delay: 1)
+            setupLabels(preset: .squeezeRight, curve: .easeIn, force: 2, duration: 1, delay: 1)
             
             currentAnimation = .squeezeDown
             startButton.setTitle("squeezeDown", for: .normal)
             
         case .squeezeDown:
             
-                            setupAnimation(animation: .squeezeDown, curve: .easeIn, force: 2, duration: 1, delay: 1)
-                        setupLabels(preset: .squeezeDown, curve: .easeIn, force: 2, duration: 1, delay: 1)
+            setupAnimation(animation: .squeezeDown, curve: .easeIn, force: 2, duration: 1, delay: 1)
+            setupLabels(preset: .squeezeDown, curve: .easeIn, force: 2, duration: 1, delay: 1)
             
             currentAnimation = .squeezeUp
             startButton.setTitle("squeezeUp", for: .normal)
             
         case .squeezeUp:
             
-                            setupAnimation(animation: .squeezeUp, curve: .easeIn, force: 2, duration: 1, delay: 1)
+            setupAnimation(animation: .squeezeUp, curve: .easeIn, force: 2, duration: 1, delay: 1)
             setupLabels(preset: .squeezeUp, curve: .easeIn, force: 2, duration: 1, delay: 1)
             
             currentAnimation = .fadeIn

@@ -44,6 +44,7 @@
 			children = (
 				3C8B3FE0299D0A6B007230E3 /* AnimationApp */,
 				3C8B3FDF299D0A6B007230E3 /* Products */,
+				3CD7F99C299E6962000AB513 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +68,13 @@
 				3C8B3FEF299D0A6C007230E3 /* Info.plist */,
 			);
 			path = AnimationApp;
+			sourceTree = "<group>";
+		};
+		3CD7F99C299E6962000AB513 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
